@@ -11,6 +11,7 @@ export default defineConfig({
 		},
 	},
 	plugins: [react()],
+	base: '/mindbox-task/',
 	test: {
 		environment: 'jsdom',
 		setupFiles: ['./vitest.setup.ts'],
